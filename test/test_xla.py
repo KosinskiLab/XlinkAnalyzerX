@@ -11,8 +11,6 @@ class test_window(unittest.TestCase):
         pass
 
     def test_gui(self):
-    # from chimera import dialogs
-    # return dialogs.display(XlinkAnalyzer_Dialog.name)
         self.assertEqual(4, 4)
 
 if __name__ == '__main__':
